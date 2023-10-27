@@ -30,6 +30,7 @@ export default function App() {
         placeholder="Preço da gasolina"
         keyboardType="numeric"
         onChangeText={setPrecoGasolina}
+        accessibilityLabel="Digite o preço da gasolina"
       />
       
       <TextInput 
@@ -37,6 +38,7 @@ export default function App() {
         placeholder="Preço do álcool"
         keyboardType="numeric"
         onChangeText={setPrecoAlcool}
+        accessibilityLabel="Digite o preço do álcool"
       />
 
       <Button title="CALCULAR" onPress={calcular} />
